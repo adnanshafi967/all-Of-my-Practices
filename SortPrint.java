@@ -58,7 +58,7 @@ public class SortPrint
     {
         for (int i = 0; i < array.length; i++)
         {
-            System.out.format("%4d | %10s | %5d\n", array[i].roll, array[i].name, array[i].marks);
+            System.out.format("%4d | %-10s | %5d\n", array[i].roll, array[i].name, array[i].marks);
         }
     }
 }
